@@ -1,0 +1,1180 @@
+{
+  "event": {
+    "id": "ATC_FRANCE_20260502",
+    "title": "French ATC Strike \u2014 French Airspace Restrictions",
+    "description": "Industrial action by French air traffic controllers. French airspace capacity reduced to ~50%. Flights landing in France prioritised (90% unaffected). Approximately 30% of through-France flights cancelled; 20% rerouted.",
+    "disruption_start": "2026-05-02",
+    "disruption_end": "2026-05-08",
+    "generated_at": "2026-05-02T15:26"
+  },
+  "disruptions": [
+    {
+      "flight_number": "BA4150",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Spain|France|Spain",
+      "new_route_via": "Spain|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "KL7528",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Greece|Italy|France|Netherlands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EI1853",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EI9031",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 216,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY1841",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 229,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "AA8025",
+      "disruption_status": "Delayed",
+      "original_route_via": "Spain|France|England",
+      "new_route_via": null,
+      "delay_minutes": 131,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EI8141",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EK5640",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BY1672",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 159,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "KL9624",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Netherlands|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA3527",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": "England|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "AA6727",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EI6021",
+      "disruption_status": "Delayed",
+      "original_route_via": "Greece|Italy|France|Italy",
+      "new_route_via": null,
+      "delay_minutes": 112,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "LS8912",
+      "disruption_status": "Cancelled",
+      "original_route_via": "France|Scotland",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR9767",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL9680",
+      "disruption_status": "Delayed",
+      "original_route_via": "Canary Islands|Spain|France|England",
+      "new_route_via": null,
+      "delay_minutes": 197,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EI1916",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS5712",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Spain|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL5992",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Spain|France|England",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR1448",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": 87,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "BY2636",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Cyprus|Greece|Italy|France|England",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA8816",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": 201,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EI2759",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": "England|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EI9349",
+      "disruption_status": "Delayed",
+      "original_route_via": "Scotland|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": 163,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "KL2430",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": 116,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "FR4665",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Netherlands|France|Spain|Portugal",
+      "new_route_via": "Netherlands|Atlantic Ocean|Spain|Portugal",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "KL4380",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EK3822",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EK4188",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR1999",
+      "disruption_status": "Delayed",
+      "original_route_via": "Scotland|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": 151,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "LS7333",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": "England|Germany|Italy|Greece|Cyprus",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BY6969",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Scotland|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR1585",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": 185,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "KL2432",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Northern Ireland|France",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL1658",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EK7604",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA9817",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "KL9795",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA4514",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": 75,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "BA1134",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EK4229",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EK4260",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EZY9847",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA2505",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS9843",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA4941",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS9443",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Northern Ireland|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "AA4912",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Scotland|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "KL7337",
+      "disruption_status": "Delayed",
+      "original_route_via": "Netherlands|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": 213,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "FR3883",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Netherlands|France|Italy|Greece",
+      "new_route_via": "Netherlands|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "FR3510",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 213,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY9973",
+      "disruption_status": "Delayed",
+      "original_route_via": "Scotland|France",
+      "new_route_via": null,
+      "delay_minutes": 219,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EK8796",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS5255",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EK9839",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "AA2185",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR4533",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL9979",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Netherlands|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BY7968",
+      "disruption_status": "Delayed",
+      "original_route_via": "Northern Ireland|France",
+      "new_route_via": null,
+      "delay_minutes": 230,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY1214",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Netherlands|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "KL3662",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Scotland|France|Spain",
+      "new_route_via": "Scotland|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "KL8578",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "KL1686",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": "England|Atlantic Ocean|Spain|Canary Islands",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BA8826",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": "England|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EI7579",
+      "disruption_status": "Delayed",
+      "original_route_via": "Northern Ireland|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 189,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY7999",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 125,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "LS7662",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Netherlands|France|Italy|Greece",
+      "new_route_via": "Netherlands|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "KL4684",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 240,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EK5294",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Northern Ireland|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BY4520",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EZY2925",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Northern Ireland|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS5732",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 214,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY6024",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Ireland|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "KL9414",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA3844",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": 223,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "W69102",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS9822",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EZY6263",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 156,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "W69546",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL6917",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Netherlands|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS6267",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": "England|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EK3807",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BY4468",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France",
+      "new_route_via": null,
+      "delay_minutes": 163,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EK8843",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": 79,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "LS9290",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": "England|Germany|Italy|Greece|Cyprus",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "W69845",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Ireland|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EK5757",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Northern Ireland|France|Italy|Greece",
+      "new_route_via": "Northern Ireland|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BA9513",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EZY9842",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": 126,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "BA8336",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": 104,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "KL8067",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 231,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "FR7075",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Scotland|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS2012",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA9287",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 78,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY4512",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR6802",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 142,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "LS4261",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Scotland|France|Spain",
+      "new_route_via": "Scotland|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EK7567",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "EI9377",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 228,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "DL5215",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Northern Ireland|France|Italy|Greece|Cyprus",
+      "new_route_via": "Northern Ireland|Germany|Italy|Greece|Cyprus",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "LS3816",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Scotland|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "W65842",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": 224,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EK7466",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Netherlands|France|Spain",
+      "new_route_via": "Netherlands|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BY8512",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 108,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "BY5135",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": 150,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "W69268",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL6452",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BY3705",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL2570",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "W69723",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 174,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "BY1688",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS7808",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Ireland|France|Italy|Malta",
+      "new_route_via": "Ireland|Germany|Italy|Malta",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "DL4832",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Ireland|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "W69334",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": 77,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "W67052",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "BA4484",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR1960",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "W69218",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EI9382",
+      "disruption_status": "Delayed",
+      "original_route_via": "Netherlands|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 217,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "KL5276",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Malta",
+      "new_route_via": "England|Germany|Italy|Malta",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "LS6744",
+      "disruption_status": "Rerouted",
+      "original_route_via": "Scotland|France|Spain",
+      "new_route_via": "Scotland|Atlantic Ocean|Spain",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "FR2493",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France",
+      "new_route_via": null,
+      "delay_minutes": 172,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "W66084",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 181,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "DL2379",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BA2158",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 216,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "BY9119",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL2003",
+      "disruption_status": "Delayed",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": 132,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "EZY5907",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "EI8679",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Northern Ireland|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "AA9751",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain|Canary Islands",
+      "new_route_via": "England|Atlantic Ocean|Spain|Canary Islands",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BY6821",
+      "disruption_status": "Delayed",
+      "original_route_via": "Scotland|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": 88,
+      "reason": "French ATC strike \u2014 departure delayed due to airspace congestion"
+    },
+    {
+      "flight_number": "LS9279",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": "England|Atlantic Ocean|Spain|Portugal",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "BY8464",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "AA2181",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Scotland|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "LS8688",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "LS6707",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "W66927",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": "England|Germany|Italy|Greece",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "AA6151",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "KL9983",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece|Cyprus",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "FR3984",
+      "disruption_status": "Cancelled",
+      "original_route_via": "Scotland|France|Spain",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight through French airspace cancelled"
+    },
+    {
+      "flight_number": "DL4088",
+      "disruption_status": "Rerouted",
+      "original_route_via": "England|France|Spain|Portugal",
+      "new_route_via": "England|Atlantic Ocean|Spain|Portugal",
+      "delay_minutes": null,
+      "reason": "French ATC strike \u2014 flight rerouted to avoid French airspace"
+    },
+    {
+      "flight_number": "W64869",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|Germany|Poland",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "Flight cancelled due to mechanical fault \u2014 aircraft unserviceable"
+    },
+    {
+      "flight_number": "BA2756",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|Germany|Austria|Montenegro",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "Flight cancelled due to mechanical fault \u2014 aircraft unserviceable"
+    },
+    {
+      "flight_number": "DL9756",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|Germany|Austria|Bulgaria",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "Flight cancelled \u2014 crew maximum working hours reached, no replacement crew available"
+    },
+    {
+      "flight_number": "KL4847",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|France|Italy|Greece",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "Flight cancelled \u2014 crew maximum working hours reached, no replacement crew available"
+    },
+    {
+      "flight_number": "DL6131",
+      "disruption_status": "Cancelled",
+      "original_route_via": "England|Atlantic Ocean|USA",
+      "new_route_via": null,
+      "delay_minutes": null,
+      "reason": "Flight cancelled \u2014 crew maximum working hours reached, no replacement crew available"
+    }
+  ]
+}
