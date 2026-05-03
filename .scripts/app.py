@@ -1,11 +1,4 @@
-"""
-app.py  —  OTB Flight Disruption Tool
-Day 1 operational tool for support staff to identify affected customers,
-look up bookings, and export contact lists during a disruption event.
-
-Run from otb-disruption-tool/ with:
-    streamlit run ".scripts/app.py"
-"""
+"""OTB Flight Disruption Tool — Day 1 operational app for support staff."""
 from __future__ import annotations
 import json
 from datetime import date, datetime, timedelta
@@ -71,8 +64,8 @@ STATUS_COLOURS = {
 
 @st.cache_data
 def load_data() -> tuple[pd.DataFrame, pd.DataFrame, dict, dict]:
-    bookings = pd.read_csv(BOOKINGS, dtype=str).fillna("")
-    flights  = pd.read_csv(FLIGHTS,  dtype=str).fillna("")
+    bookings = pd.read_csv(BOOKINGS, dtype=str, encoding="utf-8").fillna("")
+    flights  = pd.read_csv(FLIGHTS,  dtype=str, encoding="utf-8").fillna("")
     with open(DISRUPTION, encoding="utf-8") as f:
         feed = json.load(f)
     disruptions = {d["flight_number"]: d for d in feed["disruptions"]}
@@ -203,6 +196,12 @@ def count_alternatives(row: pd.Series, flights: pd.DataFrame, disruptions: dict)
     return total
 
 
+@st.cache_data
+def compute_alt_counts(affected: pd.DataFrame, _flights: pd.DataFrame, _disruptions: dict) -> pd.Series:
+    """Cached per-booking alternative count; recomputes only when affected data changes."""
+    return affected.apply(lambda r: count_alternatives(r, _flights, _disruptions), axis=1)
+
+
 def render_alternatives(row: pd.Series, flights: pd.DataFrame, disruptions: dict, iata_names: dict) -> None:
     affected_legs = []
     if row["outbound_status"] in ("Cancelled", "Rerouted", "Delayed"):
@@ -238,7 +237,7 @@ def render_alternatives(row: pd.Series, flights: pd.DataFrame, disruptions: dict
             results["other_available"].empty
         )
         if all_empty:
-            st.warning(f"No available alternatives found for {origin_name} -> {dest} within +/-3 days.")
+            st.warning(f"No available alternatives found for {origin_name} -> {dest} within -1 to +3 days.")
         else:
             if not results["same_route"].empty:
                 st.markdown(f"*Same route ({origin_name} -> {dest}):*")
@@ -397,7 +396,7 @@ def tab_lookup(df: pd.DataFrame) -> None:
 
 
 def apply_filters(affected: pd.DataFrame, disruption_types: list, travel_status: str, leg: str) -> pd.DataFrame:
-    filtered = affected.copy()
+    filtered = affected
     if disruption_types:
         filtered = filtered[filtered["worst_disruption"].isin(disruption_types)]
     if travel_status != "All":
@@ -425,10 +424,6 @@ def tab_affected(affected: pd.DataFrame, flights: pd.DataFrame, disruptions: dic
     leg = fc3.selectbox("Affected leg", ["All", "Outbound", "Return", "Both"])
 
     filtered = apply_filters(affected, disruption_types, travel_status, leg)
-    filtered = filtered.copy()
-    filtered["alt_count"] = filtered.apply(
-        lambda r: count_alternatives(r, flights, disruptions), axis=1
-    )
 
     st.markdown(f"**{len(filtered)} affected booking(s) shown**")
 
@@ -497,8 +492,6 @@ def tab_export(filtered: pd.DataFrame) -> None:
         "return_destination", "return_status", "return_reason",
         "worst_disruption", "hotel_name",
     ]
-    # Only include columns that actually exist in the dataframe
-    export_cols = [c for c in export_cols if c in filtered.columns]
     csv = filtered[export_cols].to_csv(index=False).encode("utf-8")
 
     st.download_button(
@@ -518,12 +511,12 @@ def main() -> None:
     st.title("✈️ OTB Flight Disruption Tool")
 
     bookings, flights, disruptions, event = load_data()
-    # Build IATA → friendly name lookup; UK_AIRPORT_NAMES fills gaps for airports that only appear as origins
+    # UK_AIRPORT_NAMES fills gaps for airports that only appear as origins (never as destinations)
     iata_names = {**UK_AIRPORT_NAMES, **dict(zip(flights["destination_iata"], flights["destination_name"]))}
     df = enrich(bookings, disruptions, iata_names)
     affected = df[df["is_affected"]].copy()
+    affected["alt_count"] = compute_alt_counts(affected, flights, disruptions)
 
-    # Event banner
     st.info(
         f"**{event['title']}**  \n"
         f"{event['description']}  \n"
