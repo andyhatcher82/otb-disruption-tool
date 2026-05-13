@@ -6,7 +6,7 @@ Day 1 delivered a functional operational tool running on mock data. Day 2 replac
 
 ## 1. Live Disruption Feed (Webhook)
 
-**Day 1:** `disruption_feed.json` is a static snapshot, manually regenerated.
+**Day 1:** `disruption_feed.json` is a static snapshot which is manually regenerated.
 
 **Day 2:** Replace with a real-time webhook endpoint that pushes disruption updates as they are confirmed by airlines and ATC. The app switches from reading a file to polling or subscribing to the feed.
 
